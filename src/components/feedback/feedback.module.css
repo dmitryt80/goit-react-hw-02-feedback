@@ -1,0 +1,18 @@
+.button:not(:last-child) {
+  margin-right: 30px;
+}
+
+.button {
+  border: none;
+  background-color: rgb(118, 133, 223);
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(44, 74, 242);
+}
